@@ -1,8 +1,10 @@
-def to_fahrenheit(c):
-    return 1.8 * c + 32
+def to_fahrenheit(a):
+    return (1.8 * a) + 32
 
-c = int(input("Введите темпиратуру в градусах Цельсия"))  
-print(to_fahrenheit(c))
+c = float(input("Введите темпиратуру в градусах Цельсия"))
+F = to_fahrenheit(c)
+print(F, "градусов по Фаренгейту")
+
 
 
 
